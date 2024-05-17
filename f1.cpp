@@ -1,4 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct FlightInfo {
+
+	char* destination;
+	char* date;
+};
 
 int main(void) {
 
